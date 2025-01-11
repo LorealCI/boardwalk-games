@@ -24,7 +24,14 @@ h1, h2, h3 {
     color: var(--highlight-color);
 }
 
+/*Navbar Styles*/
+#navbar {
+    background-color: var(--primary-color);
+}
 
+#navbar .logo {
+    width: 30px;
+}
 /*grid visiualisation for css testing
 .container, .row {
 border: solid 2px black;
