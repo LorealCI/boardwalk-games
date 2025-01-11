@@ -70,3 +70,36 @@ border: solid 2px black;
     border: solid 2px white;
     background-color: lightgray;
 }*/
+
+/*Media Queries*/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    /*make all services cards the same height*/
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/*Large devices (small laptops, 768px and up)*/
+@media (min-width: 992px) {
+    /*make all services cards the same height*/
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/*Extra-large devices ( laptops, 1200px and up)*/
+@media (min-width: 1200px) {
+    /*make all services cards the same height*/
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/*Extra-large devices ( Large laptops, 1400px and up)*/
+@media (min-width: 1400px) {
+    /*make all services cards the same height*/
+    #services .card-body {
+        min-height: 195px;
+    }
+}
