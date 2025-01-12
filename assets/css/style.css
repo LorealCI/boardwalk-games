@@ -98,6 +98,10 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+
+#contact .table-dark * {
+    background-color: transparent;
+}
 /*grid visiualisation for css testing
 .container, .row {
 border: solid 2px black;
