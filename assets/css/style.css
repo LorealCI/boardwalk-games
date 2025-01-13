@@ -33,9 +33,9 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+ padding-top: 4rem; /*prevent navbar overlapping headings*/
 }
+
 /*Button Styles*/
 .custom-button-filled {
     background-color: var(--highlight-color);
