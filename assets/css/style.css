@@ -13,6 +13,7 @@
 /*Global Styles*/
 body {
     font-family: var(--primary-font);
+    padding-top: 57.64px; /*pushes the top of the header down under fixed navbar*/
 }
 
 h1, h2, h3 {
