@@ -127,6 +127,8 @@ h2 {
 #contact .social-links i {
     font-size: 1.9rem;
     color: var(--highlight-color-light);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -137,15 +139,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-/*grid visiualisation for css testing
-.container, .row {
-border: solid 2px black;
-} 
-
-.col-12 {
-    border: solid 2px white;
-    background-color: lightgray;
-}*/
 
 /*Media Queries*/
 /*Medium devices (tablets, 768px and up)*/
