@@ -84,6 +84,17 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/*Events Section*/
+.student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+}
+
 /* Game library cards */
 
 #new-games .card,
